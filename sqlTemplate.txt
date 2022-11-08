@@ -1,0 +1,36 @@
+This SQL template is for handling the column name, format, string characters or marks using SQL in BigQuery.
+
+
+SQL template for renaming table's column
+/*
+ALTER TABLE `test_pipeline.big-00` --databaseName.tableName
+RENAME COLUMN string_field_0 TO user_id; --oldColName, newColName
+
+ALTER TABLE `test_pipeline.big-00`
+RENAME COLUMN string_field_1 TO business_id;
+
+ALTER TABLE `test_pipeline.big-00`
+RENAME COLUMN string_field_2 TO text;
+
+ALTER TABLE `test_pipeline.big-00`
+RENAME COLUMN string_field_3 TO date;
+
+ALTER TABLE `test_pipeline.big-00`
+RENAME COLUMN string_field_4 TO compliment_count;
+*/
+
+
+SQL template for replacing column's value
+/*
+UPDATE `test_pipeline.big-00` --databaseName.tableName
+SET user_id = REPLACE(user_id, "[", "") --colName, findPatten, replacement
+WHERE user_id LIKE "[%"; --specific pattern
+
+UPDATE `test_pipeline.big-00`
+SET user_id = REPLACE(user_id, "'", "")
+WHERE user_id LIKE "'%";
+
+UPDATE `test_pipeline.big-00`
+SET user_id = REPLACE(user_id, "'", "")
+WHERE user_id LIKE "%'";
+*/
