@@ -16,6 +16,8 @@ Still working on Step 1 as I got the CSV but not well formatted, need to improve
 
 Step 2: Cloud Storage >> BigQuery (for storing data as structured datasets)
 
-Create a Data set in BigQuery which is read directly from the CSV from the previous step. 
+Create a Dataset and table(s) in BigQuery which is read directly from the CSV(s) from the previous step. 
+Handling the column name, format, string characters or marks using SQL in BigQuery.
+Export the well-cleaned table(s) to CSV for data analysis.  
 
 Step 3: BigQuery >> Tableau (for data visualization)
