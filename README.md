@@ -3,7 +3,7 @@ practice project with gcp
 
 ## YELP PROJECT
 
-MAIN MISSION: Wish an input file in JSON format, extract its data in a CSV file. 
+MAIN MISSION: With an input file in JSON format, extract its data in a CSV file. 
 
 ### Step 1: Cloud Storage >> Dataflow (for converting JSON to CSV)
 
