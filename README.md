@@ -7,7 +7,7 @@ MAIN MISSION: With an input file in JSON format, extract its data and output as 
 
 ### Step 1: Cloud Storage >> Dataflow (for converting JSON to CSV)
 
-1. Creat a Bucket, upload the piese of the JSON file as the test.json to the Bucket. 
+1. Creat a Bucket, upload one piese of the JSON file as the test.json to the Bucket. 
 2. Create a pipeline with Apache Beam in Python, and run it in Google Cloud Dataflow. 
 This pipeline will read a JSON file which is stored in Google Cloud Storage, then extract the data and write as a CSV file output and storage it back in the Google Cloud Storage. 
 
