@@ -20,4 +20,4 @@ Still working on Step 2 as I got the CSV but not well formatted, need to improve
 2. Handling the column name, format, string characters or marks using SQL in BigQuery.
 3. Export the well-cleaned table(s) to CSV for data analysis.  
 
-## Step 3: BigQuery >> Tableau (for data visualization)
+### Step 3: BigQuery >> Tableau (for data visualization)
