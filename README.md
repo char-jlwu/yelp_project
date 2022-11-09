@@ -18,6 +18,6 @@ Still working on Step 2 as I got the CSV but not well formatted, need to improve
 
 1. Create a Dataset and table(s) in BigQuery which is read directly from the CSV(s) from the previous step. 
 2. Handling the column name, format, string characters or marks using SQL in BigQuery.
-3. Pass the BigQuery table(s) to Data Analyst. Different format as requested.   
+3. Pass the BigQuery table(s) to Data Analyst. Export in format as requested.   
 
 ### Step 3: BigQuery >> Tableau (for data visualization)
