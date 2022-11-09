@@ -1,5 +1,5 @@
 # yelp_project
-practice project with gcp
+JUMP Program capstone project with GCP
 
 ## YELP PROJECT
 
